@@ -1,0 +1,6 @@
+# Executable files
+a.out
+*.exe
+
+# Object files
+*.o
