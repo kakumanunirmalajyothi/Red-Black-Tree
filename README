@@ -1,3 +1,61 @@
-1. Fill the templates.
-2. Copy the generic Makefile present in the assignments directory.
-3. Run the code.
+# 🌳 Red-Black Tree
+
+## 📌 Project Overview
+
+A **Red-Black Tree** is a self-balancing Binary Search Tree (BST) that maintains a balanced structure using an additional color property associated with each node.
+
+The tree ensures that the height remains approximately logarithmic, which provides efficient time complexity for searching, insertion, and deletion operations.
+
+This project implements a **Red-Black Tree in C** and demonstrates important concepts such as:
+
+- Binary Search Trees
+- Self-balancing trees
+- Dynamic memory allocation
+- Pointers
+- Recursion
+- Tree rotations
+- Node insertion and deletion
+- Searching
+- Tree traversal
+- Maintaining Red-Black Tree properties
+
+---
+
+## 🎯 Objectives
+
+The main objectives of this project are:
+
+- To understand the concept of self-balancing Binary Search Trees.
+- To implement a Red-Black Tree using C.
+- To perform insertion and deletion while maintaining tree balance.
+- To understand left and right rotations.
+- To maintain the five properties of a Red-Black Tree.
+- To improve understanding of pointers and dynamic memory allocation.
+- To analyze the time complexity of tree operations.
+
+---
+
+## 🧠 What is a Red-Black Tree?
+
+A Red-Black Tree is a **self-balancing Binary Search Tree** where every node contains an additional color:
+
+- 🔴 Red
+- ⚫ Black
+
+The color of each node is used to ensure that the tree remains approximately balanced after insertion and deletion.
+
+Unlike a normal Binary Search Tree, a Red-Black Tree automatically performs **rotations and recoloring** whenever necessary.
+
+---
+
+## 📜 Red-Black Tree Properties
+
+A valid Red-Black Tree follows these five properties:
+
+### 1. Every node is either Red or Black
+
+Each node contains a color field.
+
+```text
+RED
+BLACK
